@@ -1,0 +1,182 @@
+/* This page contains the main stylesheets for the fictional website */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Playpen+Sans:wght@300&display=swap');
+html, body {
+    margin: 0;
+    padding: 0;
+}
+#navbar{
+    background-color: rgb(86,15,20);
+}
+#navbar img {
+    width: 150px;
+}
+#search-form {
+    float: right;
+    margin-top: 22px;
+}
+.labelDiv {
+    width: 160px;
+    display: inline-block;
+    color: rgb(130,34,39);
+}
+
+#first, #second {
+    background-color: steelblue;
+    color:white;
+    border-color: black;
+    margin-left: 165px;
+}
+#second {
+    background-color: red;
+    margin-left: 10px;
+}
+#infoboxMain img {
+    width: 100%; 
+    height: 500px;
+}
+nav {
+    background-color: rgb(219,155,62);
+    border-style:dotted;
+    border-color: rgb(130,34,39);
+    height: 30px;
+    
+}
+nav a {
+    text-decoration:underline;
+    color: rgb(130,34,39);
+    font-weight: bold; 
+    margin: 0 10px; 
+}
+nav a:hover {
+    color: white;
+}
+#header1 {
+    color: rgb(219,155,62);
+    text-decoration: wavy;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+}
+#info1, #info2, #info3 {
+    text-align: center; 
+    margin: 50px; 
+    width: 300px; 
+    height: 100%;
+    float: left;
+    background-color: rgb(219,155,62);
+    border-radius: 15px;
+    padding: 5px;
+}
+#info1 img, #info2 img, #info3 img {
+    width: 95%;
+    height: auto;
+    border-radius: 15px;
+    margin-top: 7.5px;
+}
+
+#info1 h2, #info2 h2, #info3 h2 {
+    margin-bottom: 10px; 
+    color:rgb(130,34,39);
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: underline;
+}
+
+#info1 p, #info2 p, #info3 p {
+    font-size: 18px;
+    text-align: center;
+    color: black;
+    padding: 10px;
+    font-family: 'Playpen Sans', cursive;
+}
+#info2 a {
+    color: rgb(134,34,39);
+}
+
+footer {
+    background-color: rgb(86,15,20);
+    height: 100%;
+    color: darkgrey;
+    clear:both;
+}
+
+footer a {
+    color:rgb(219,155,62);
+}
+footer a:hover {
+    color: white;
+}
+footer #footerpart {
+    text-align:right;
+}  
+main #header2{
+    color: rgb(124,88,35);
+    text-decoration:underline;
+    text-align: left;
+    font-family:'Times New Roman', Times, serif;
+    margin-left: 20px;
+}
+
+#infobox1, #infobox2, #infobox3, #infobox4, #infobox5, #infobox6, #infobox7, #infobox8 {
+    text-align: center; 
+    margin: 30px; 
+    width: 300px; 
+    height: 100%;
+    float: left;
+    background-color: bisque;
+    border-radius: 15px;
+    padding: 5px;
+}
+#infobox3, #infobox6 {
+    margin: 100px;
+}
+#infobox7{
+    float:right; 
+    margin-right: 50px;
+} 
+#infobox8{
+    float:right;
+    margin-right: 50px;
+    margin-left:1500px;
+    clear: both;
+}
+
+#infobox1 ul, #infobox2 p, #infobox3 ul, #infobox4 p, #infobox5 p, #infobox5 ul, #infobox6 p, #infobox7 p, #infobox7 ul, #infobox8 p {
+    font-size: 18px;
+    text-align: left;
+    color: rgb(124,88,35);
+    padding: 10px;
+    font-family: 'Playpen Sans', cursive;
+}
+#infobox1 h3, #infobox2 h3, #infobox3 h3, #infobox4 h3, #infobox5 h3, #infobox7 h3 {
+    margin-bottom: 10px; 
+    color:rgb(134,34,39);
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: underline;
+}
+#infobox3, #infobox6, #infobox7, #infobox8 {
+     background-color:brown;
+}
+
+#infobox3 a, #infobox6 a, #infobox7 a, #infobox8 a {
+    color: white;
+}
+#infobox3 a:hover, #infobox6 a:hover, #infobox7 a:hover, #infobox8 a:hover{
+    color: rgb(219,155,62);
+}
+#infobox3 h3, #infobox7 h3{
+    color:black;
+}
+#infobox6 p, #infobox8 p{
+    color: black;
+}
+#infobox1 img, #infobox2 img, #infobox4 img, #infobox5 img {
+    width: 95%;
+    height: auto;
+    border-radius: 15px;
+    margin-top: 7.5px;
+}
+#form1 {
+    float: left;
+}
+#body1{
+    background-color: bisque;
+}
